@@ -1,0 +1,15 @@
+::Custom Build System::
+
+Python 2.7
+{
+    "cmd": ["C:\\Python27\\python.exe", "-u", "$file"],
+    "selector": "source.python",
+    "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)"
+}
+
+Python 3.8
+{
+    "cmd": ["C:\\Users\\JasonJones\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe", "-u", "$file"],
+    "selector": "source.python",
+    "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)"
+}
